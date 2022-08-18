@@ -8,6 +8,8 @@ Selected ROI frames are timestamped and written to the 'handframes' folder, befo
 ## Gesture recognition
 Using a ResNet-18 architecture. The approach uses transfer learning using pre-trained weights, with additional training on a subsample of the HaGRID dataset. The model achieves about 91% accuracy on pre-made annotated frames, and about 68% accuracy when tested using actual webcam footage.
 
+An alternative approach was tried using the MobileNetV3 architecture, with fully pre-trained weights. This did not perform as well as ResNet.
+
 
 The 18 gesture classes in the dataset, excluding a 19th 'No gesture' class.
 
