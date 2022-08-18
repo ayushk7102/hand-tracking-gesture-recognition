@@ -1,7 +1,12 @@
 # Hand tracking and gesture recognition for video data
 A model to track hands in a video frame and identify hand gestures as defined by HaGRID (HAnd Gesture Recognition Image Dataset). 
 ## Region-of-interest (ROI) filtering
-The model uses image preprocessing techniques such as k-nearest-neighbours based background subtraction, adaptive thresholding and Gaussian filtering to find the area of the frame having the maximum likelihood of hands present. 
+The model uses image preprocessing techniques such as:
+* k-nearest-neighbours based background subtraction 
+* Adaptive thresholding
+* Gaussian filtering
+
+The above steps are computed to find the area of the frame having the maximum likelihood of hands present. 
 
 Selected ROI frames are timestamped and written to the 'handframes' folder, before being sent to the recognition model. 
 
