@@ -20,5 +20,8 @@ Confusion matrix for model when tested on annotated frames
 
 
 GIF of results
-Predictions are written for each hand frame to the 'predictions' folder
+
 ![final](https://user-images.githubusercontent.com/65803868/185431400-b7b05861-92bc-4c91-a24a-acbe9a1818c0.gif)
+
+
+Predictions are written for each hand frame to the 'predictions' folder
